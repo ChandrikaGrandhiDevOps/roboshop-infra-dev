@@ -34,3 +34,7 @@ variable "environment" {
 variable "zone_name" {
   default = "grobo.shop"
 }
+
+variable "iam_instance_profile" {
+  default = "Key"
+}
