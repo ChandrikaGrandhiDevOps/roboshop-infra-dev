@@ -20,6 +20,9 @@ variable "tags" {
   }
 }
 
+variable "iam_instance_profile" {
+  default = "Key"
+}
 
 
 variable "sg_tags" {
