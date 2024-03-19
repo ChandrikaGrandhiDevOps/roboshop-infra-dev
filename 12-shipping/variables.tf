@@ -16,7 +16,7 @@ variable "project_name" {
 
 variable "tags" {
   default = {
-    Component = "web"
+    Component = "shipping"
   }
 }
 
@@ -33,4 +33,8 @@ variable "environment" {
 
 variable "zone_name" {
   default = "grobo.shop"
+}
+
+variable "iam_instance_profile" {
+  default = "Key"
 }
